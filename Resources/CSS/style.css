@@ -62,29 +62,6 @@ footer {
   width: 100%;
 }
 
-.mission {
-  width: 100%;
-  height: 700px;
-  padding-top: 70px;
-  background-image: url("../Images/img-mission-background.jpg");
-  background-position: center top 70px;
-  background-size: 1200px 800px;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.products {
-  max-width: 1000px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.products div {
-  padding-bottom: 10px;
-}
-
 .cards {
   display: flex;
   flex-flow: row wrap;
@@ -100,22 +77,6 @@ footer {
   height: 200px;
 }
 
-.locations {
-  width: 100%;
-  min-height: 500px;
-  background-image: url("../Images/img-locations-background.jpg");
-  background-position: center;
-  background-size: 1200px 500px;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.locations h2 {
-  padding: 0px;
-  background-color: transparent;
-}
 
 .locard {
   width: 300px;
@@ -136,4 +97,44 @@ footer {
 .contact {
   width: 100%;
   min-height: 200px;
+}
+
+#mission {
+  width: 100%;
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("../Images/img-mission-background.jpg");
+  background-position: center top 70px;
+  background-size: 1200px 800px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#products {
+  max-width: 1000px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#products div {
+  padding-bottom: 10px;
+}
+
+#locations {
+  width: 100%;
+  min-height: 500px;
+  background-image: url("../Images/img-locations-background.jpg");
+  background-position: center;
+  background-size: 1200px 500px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#locations h2 {
+  padding: 0px;
+  background-color: transparent;
 }
